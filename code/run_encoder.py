@@ -64,12 +64,12 @@ if __name__ == '__main__':
 
     encoder_model = RNNEncoder(args.hidden_neurons, args.layers).to(device)
     fully_connect = FullyConnected(args.hidden_neurons).to(device)
-    decoder_model = RNNDecoder(args.hidden_neurons, args.layers).to(device)
 
     encoder_model.load_state_dict(torch.load('../model_parameters/encoder_model_' + str(num_traces) + '.pt'))
-    fully_connect.load_state_dict(torch.load('../model_parameters/fully_connected_' + str(num_traces) +
-                                             '.pt'))
-    decoder_model.load_state_dict(torch.load('../model_parameters/decoder_model_' + str(num_traces) + '.pt'))
+    fully_connect.load_state_dict(torch.load('../model_parameters/fully_connected_' + str(num_traces) + '.pt'))
+
+    encoder_model.eval()
+    fully_connect.eval()
 
     mTime_train = np.asarray(mTime_train)
     mTime_test = np.asarray(mTime_test)

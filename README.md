@@ -1,12 +1,12 @@
 # Smartphone identification via passive traffic fingerprinting
-This repository contains the reference code for the paper ''Smartphone Identification via Passive Traffic Fingerprinting: a Sequence-to-Sequence Learning Approach''.
+This repository contains the reference code for the paper ''Smartphone Identification via Passive Traffic Fingerprinting: a Sequence-to-Sequence Learning Approach'' [DOI: 10.1109/MNET.001.1900101] (https://ieeexplore.ieee.org/document/9003304).
 
 If you find the project useful and you use this code, please cite our paper:
 ```
-@article{Meneghello2019Network,
+@article{Meneghello2020Network,
 	author={Francesca Meneghello and Michele Rossi and Nicola Bui},
 	title={Smartphone Identification via Passive Traffic Fingerprinting: a Sequence-to-Sequence Learning Approach},
-	journal={IEEE Network Magazine},
+	journal={IEEE Network},
 	volume={},
 	number={},
 	pages={},
