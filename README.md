@@ -7,9 +7,9 @@ If you find the project useful and you use this code, please cite our paper:
 	author={Francesca Meneghello and Michele Rossi and Nicola Bui},
 	title={Smartphone Identification via Passive Traffic Fingerprinting: a Sequence-to-Sequence Learning Approach},
 	journal={IEEE Network},
-	volume={},
-	number={},
-	pages={},
+	volume={34},
+	number={2},
+	pages={112--120},
 	year={2020}
 }
 ```
@@ -57,3 +57,4 @@ Francesca Meneghello, Michele Rossi, Nicola Bui
 
 # Contact
 meneghello@dei.unipd.it
+gitHub: github.com/francescamen
