@@ -57,4 +57,4 @@ Francesca Meneghello, Michele Rossi, Nicola Bui
 
 # Contact
 meneghello@dei.unipd.it
-gitHub: github.com/francescamen
+github.com/francescamen
