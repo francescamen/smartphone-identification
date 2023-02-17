@@ -18,7 +18,7 @@ If you find the project useful and you use this code, please cite our paper:
 Clone the repository and enter the folder with the python code:
 ```bash
 cd <your_path>
-git clone https://github.com/signetlabdei/smartphone_identification
+git clone https://github.com/francescamen/smartphone_identification
 cd code
 ```
 
